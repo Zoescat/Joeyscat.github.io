@@ -1,0 +1,41 @@
+/*为多种元素添加一组样式,需将不同的选择符用逗号隔开*/
+/*p,li,h1 {
+    color: burlywood;
+    width: 500px;
+    border: 0px solid black;
+}*/
+
+html {
+    font-size: 10px;
+    font-family: Bellefair;
+    background-color: #66ffcc;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: black;
+/*    color: #00539F;*/
+/*    text-shadow: 3px 3px 1px black;*/
+    font-size: 60px;
+    text-align: center;
+}
+
+p, li {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #66ffcc;
+    padding: 10px 20px 20px 20px;
+    border: 2px solid #00997a;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
